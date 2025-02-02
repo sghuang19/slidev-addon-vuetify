@@ -1,7 +1,7 @@
 import { defineAppSetup } from "@slidev/types";
 
 import "vuetify/styles";
-import { createVuetify, useTheme } from "vuetify";
+import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 
