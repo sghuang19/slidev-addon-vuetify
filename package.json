@@ -1,6 +1,6 @@
 {
   "name": "slidev-addon-vuetify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Slidev addon that brings Vuetify components to your slideshow.",
   "author": "Samuel Huang",
   "license": "MIT",
