@@ -11,8 +11,7 @@ const vuetify = createVuetify({
   directives,
 });
 
-export default defineAppSetup(({ app }) => {
-  app.use(vuetify);
+const checkTheme = () => {
   const observer = new MutationObserver(() => {
     const isDark = document.documentElement.classList.contains("dark");
     vuetify.theme.global.name.value = isDark ? "dark" : "light";
@@ -25,4 +24,9 @@ export default defineAppSetup(({ app }) => {
     attributeFilter: ["class"],
   });
   console.debug("[Vuetify] Theme observer started");
+};
+
+export default defineAppSetup(({ app }) => {
+  app.use(vuetify);
+  checkTheme();
 });
