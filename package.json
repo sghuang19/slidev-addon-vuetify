@@ -4,6 +4,11 @@
   "description": "An addon that brings Vuetify components to Slidev.",
   "author": "Samuel Huang",
   "license": "MIT",
+  "files": [
+    "setup/main.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sghuang19/slidev-addon-vuetify"
