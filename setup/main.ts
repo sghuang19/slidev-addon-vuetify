@@ -1,6 +1,6 @@
 import { defineAppSetup } from "@slidev/types";
 
-import "vuetify/styles";
+// import "vuetify/styles"; // seems like this is not needed
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
