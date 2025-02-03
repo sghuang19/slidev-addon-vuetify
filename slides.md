@@ -6,11 +6,11 @@ vuetify:
       myTheme:
         dark: false
         colors:
-          background: "#FFFFFF"
           surface: "#FFFFFF"
-          primary: "#6200EE"
+          primary: "#FF0000"
+          secondary: "#00FF00"
+          background: "#FFFF00"
           "primary-darken-1": "#3700B3"
-          secondary: "#03DAC6"
           "secondary-darken-1": "#018786"
           error: "#B00020"
           info: "#2196F3"
