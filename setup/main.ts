@@ -18,10 +18,12 @@ const checkSlidev = (app) => {
   const typedWindow = window as typeof window & { __slidev__?: any };
   const observer = new MutationObserver(() => {
     if (typedWindow) {
-      console.debug(
+      const configs = typedWindow.__slidev__.configs;
+      console.warn(
         "[Vuetify] __slidev__ detected via MutationObserver:",
-        typedWindow.__slidev__,
+        configs,
       );
+      // TODO: use configs.vuetify to customize vuetify
       observer.disconnect(); // Stop observing once detected
     }
   });
