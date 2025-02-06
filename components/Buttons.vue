@@ -15,7 +15,7 @@
         :key="variant"
         cols="auto"
       >
-        <v-btn :variant="variant">{{ variant }}</v-btn>
+        <v-btn color="primary" :variant="variant">{{ variant }}</v-btn>
       </v-col>
     </v-row>
   </v-container>

@@ -2,21 +2,6 @@
   "name": "slidev-addon-vuetify",
   "version": "0.2.1",
   "description": "A Slidev addon that brings Vuetify components to your slideshow.",
-  "author": "Samuel Huang",
-  "license": "MIT",
-  "files": [
-    "setup/main.ts",
-    "README.md",
-    "LICENSE"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sghuang19/slidev-addon-vuetify"
-  },
-  "bugs": {
-    "url": "https://github.com/sghuang19/slidev-addon-vuetify/issues"
-  },
-  "homepage": "https://github.com/sghuang19/slidev-addon-vuetify#readme",
   "keywords": [
     "slidev",
     "vuetify",
@@ -24,7 +9,20 @@
     "vue",
     "slideshow"
   ],
+  "homepage": "https://github.com/sghuang19/slidev-addon-vuetify#readme",
+  "bugs": {
+    "url": "https://github.com/sghuang19/slidev-addon-vuetify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sghuang19/slidev-addon-vuetify"
+  },
+  "license": "MIT",
+  "author": "Samuel Huang",
   "type": "module",
+  "files": [
+    "setup/main.ts"
+  ],
   "scripts": {
     "dev": "slidev"
   },
